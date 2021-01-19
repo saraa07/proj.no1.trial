@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+}
+.hdr{
+    background-color: red;
+    height: 5px;
+}
+.navbar{
+    background-image: url("../images/slide1-01.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+    color: white;
+    background-size: cover;
+}
+.welcome{
+    text-align: center;
+    font-size: 70px;
+    margin-top:100px;
+    position:relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+#w1{
+    font-size:50px ;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+
+.Hicon{
+   width: 40px;
+   height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 70px;
+    cursor: pointer;
+    
+}
+
+.Hicon:hover + .sideMenu{
+    display: block;
+   
+}
+.sideMenu{
+    background-color: white;
+    position:absolute;
+    width: 150px;
+    height: 300px;
+    right: 80px;
+    top:72px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 7px;
+    display: none;
+    
+}
+
+.patoLogo{
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 130px;
+    cursor: pointer;
+}
+
+.menuItem{
+    height: 10px; 
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 80px;
+    font-family:Montserrat, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menuItem:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.slider1{
+    background-color: red;
+    position:absolute;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top:13px ;
+    margin-top: 400px;
+    margin-left: 50px;
+    text-align: center;
+    cursor: pointer; 
+    transition: 0.5s;
+}
+.slider1:hover{
+    background-color: rgba(0, 0, 0, 0.267);
+    transition:0.5s;
+}
+.slider2{
+    background-color: red;
+    position:absolute;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top:13px ;
+    margin-top: 400px;
+    margin-left: 92%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.slider2:hover{
+    background-color: rgba(0, 0, 0, 0.267);
+    transition: 0.5s;
+}
+
+
+.lookmenu{ 
+    width: 150px;
+    height:38px;
+    border-radius: 20px;
+    position: absolute;
+    background-color:white;
+    color: red;
+    margin-top: 38%;
+    margin-left: 45.5%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 3px;
+    font-family:Montserrat, sans-serif ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lookmenu:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+ .point1{
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 670px; 
+    margin-left: 48%;
+    border-radius: 50%; 
+    border-color: white;
+    border-width: thick ;
+    padding: 6px;
+} 
+.point2{
+    display: block;
+    background-color: red;
+    position: absolute;
+    margin-top: 670px; 
+    margin-left: 50%;
+    border-radius: 50%; 
+    border-color: white;
+    border-width: thick ;
+    padding: 6px;
+} 
+.point3{
+    display: block;
+    background-color: red;
+    position: absolute;
+    margin-top: 670px; 
+    margin-left: 52%;
+    border-radius: 50%; 
+    border-color: white;
+    border-width: thick ;
+    padding: 6px;
+} 
+.cotainer1{
+    box-align: center;
+    
+
+}
+.div1{
+    width: 40%;
+    margin-left: 130px;
+    display: inline-block;
+     
+}
+#italianR{
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    color:rgb(238, 2, 2);
+    
+
+}
+#w2{
+text-align: center;
+font-size: 300%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+#sectionText{
+    padding-top: 5%;
+    text-align: center;
+    color: rgb(139, 139, 139);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#ourStory{
+    padding-top: 7%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.divIMG{
+    width:40%;
+    margin-left:70px; 
+    display: inline-block; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+   
+   
+ .chknIMG{
+    width:400px;
+    height:400px;
+    position:relative;
+    border-radius: 10px; 
+    display: inline-block;
+
+}
+.parallax{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../images/bg-intro-01.jpg");
+    height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.discover{
+padding-top: 90px;
+color: red;
+font-style: italic;
+font-size: 40px;
+text-align: center;
+
+}
+.patoplace{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.container2{
+    box-align: center; 
+    
+}
+
+.intro1{
+    display: inline-block;
+    margin-left: 120px;
+}
+.NYC{
+    width:350px ;
+    height:210px ;
+    border-radius: 10px;
+   
+}
+.romantic{
+    font-size: 150%;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1{
+    width: 74%;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.learnmore1{
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.intro2{
+    display: inline-block; 
+}
+.meat{
+    width:350px ;
+    height:210px ;
+    border-radius: 10px;  
+}
+.delicious{
+    font-size: 150%;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p2{
+    width: 74%;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.learnmore2{
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.intro4{
+    display: inline-block;
+}
+.wine{
+    width:350px ;
+    height:210px ;
+    border-radius: 10px;
+}
+.red{
+    font-size: 150%;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p3{
+    width: 74%;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.learnmore3{
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.divColor{
+    height: 800px;
+    background-image: url(../images/icons/pattern2.png) ;
+}
+.container3{
+    /* padding-top: 80px; */
+}
+.Discover{
+    text-align: center;
+    color: #d61c22;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.ourmenu{
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.colomn1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.colomn2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.shrimp{
+    width: 290px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.wine1{
+    width: 290px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.glasses{
+    width: 80.5%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.drink{
+    height: 210px;
+    width: 310px;
+    border-radius: 10px;
+    
+}
+.dish{
+    height: 210px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+.dessert{
+    height: 210px;
+    width: 310px;
+    border-radius: 10px;
+}
+@media (max-width: 100px){
+    .menuItem{
+        display: block;   
+        width: 85%;
+        margin: 5px auto;
+    }
+}
+@media (max-width: 960px){
+.menuItem{
+    visibility:hidden;
+}
+
+}
